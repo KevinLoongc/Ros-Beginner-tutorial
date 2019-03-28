@@ -1,6 +1,5 @@
 # <center> Ros-Beginner-tutorial </center>
 
-<<<<<<< HEAD
 本仓库为本人学习ROS的入门代码，包括以下ROS软件包:
 
 ---
@@ -12,7 +11,4 @@
 
 ---
 
-=======
 
----
->>>>>>> 5726f85a12b59c830a270bd9072295af4d37b3f1
