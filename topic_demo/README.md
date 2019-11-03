@@ -18,14 +18,14 @@ Topic的接受者会订阅**/gps_info**，并计算每次GPS位置到原点的�
 启动发布者
 
 ```sh
-$ rosrun topic_demo talker        #C++
-``` 
+rosrun topic_demo talker
+```
 
 启动接收者
 
 ```sh
-$ rosrun topic_demo listener        #C++
-``` 
+rosrun topic_demo listener
+```
 
 msg是与编程语言无关的通信协议，因此收发双方无论用哪个语言来实现，都可以实现相互的topic通信。
 

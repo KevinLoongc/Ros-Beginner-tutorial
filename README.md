@@ -4,10 +4,12 @@
 
 ---
 | 软件包 | 内容 |
-| :--- | :----: |
+| :--: | :----: |
 | **topic_demo** | topic通信，自定义msg，以C++语言实现 |
 | **service_demo** | service通信，自定义srv，以C++语言实现 |
+| **action_demo** | action通信，自定义action，以C++语言实现 |
 | **param_demo** | param操作，以C++语言实现 |
+| **mbot_description** | 机器人建模软件功能包，机器人相关的模型文件或者是一些外观描述文件 |
 
 ---
 

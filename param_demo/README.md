@@ -8,12 +8,13 @@ param_demo软件包，介绍C++版本的parameter相关的操作。
 
 
 ```sh
-$ rosrun param_demo param_demo           #C++
-``` 
+rosrun param_demo param_demo
+```
 
 ```sh
-$ roslaunch param_demo param_demo_cpp.launch       #在launch文件中加载参数，启动C++版本的param_demo
-``` 
+# 在launch文件中加载参数，启动C++版本的param_demo
+roslaunch param_demo param_demo_cpp.launch  
+```
 
 
 

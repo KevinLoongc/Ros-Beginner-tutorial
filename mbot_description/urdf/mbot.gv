@@ -1,0 +1,17 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"back_caster_link" [label="back_caster_link"];
+"laser_link" [label="laser_link"];
+"left_wheel_link" [label="left_wheel_link"];
+"right_wheel_link" [label="right_wheel_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "back_caster_joint" [label="xyz: -0.12 0 -0.018 \nrpy: 0 -0 0"]
+"back_caster_joint" -> "back_caster_link"
+"base_link" -> "laser_joint" [label="xyz: 0.08 0 0.03 \nrpy: 0 -0 0"]
+"laser_joint" -> "laser_link"
+"base_link" -> "left_wheel_joint" [label="xyz: 0.09 0.12 -0.01 \nrpy: 0 -0 0"]
+"left_wheel_joint" -> "left_wheel_link"
+"base_link" -> "right_wheel_joint" [label="xyz: 0.09 -0.12 -0.01 \nrpy: 0 -0 0"]
+"right_wheel_joint" -> "right_wheel_link"
+}

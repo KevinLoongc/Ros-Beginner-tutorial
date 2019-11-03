@@ -17,13 +17,13 @@ Service通信示例，用C++实现service通信。
 启动服务器端
 
 ```sh
-$ rosrun service_demo server           #C++
-``` 
+rosrun service_demo server
+```
 
 启动客户端
 
 ```sh
-$ rosrun service_demo client           #C++
-``` 
+rosrun service_demo client
+```
 
 
